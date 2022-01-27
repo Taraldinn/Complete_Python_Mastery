@@ -1,4 +1,6 @@
 class Point:
+    default_color = "red"
+
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -8,4 +10,8 @@ class Point:
 
 
 point = Point(1, 2)
-print(point.draw())
+print(point.default_color)
+point.draw()
+
+another = Point(3, 4)
+another.draw()
