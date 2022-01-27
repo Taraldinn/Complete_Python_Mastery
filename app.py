@@ -3,10 +3,9 @@ class Point:
         self.x = x
         self.y = y
 
-
     def draw(self):
-        print(f"Point ({self.x}, {self.y} )")
+        print(f"Point ({self.x} , {self.y})")
 
 
 point = Point(1, 2)
-point.draw()
+print(point.draw())
