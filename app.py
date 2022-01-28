@@ -1,25 +1,14 @@
-class Point:
-    default_color = "red"
-
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    @classmethod
-    def zero(cls):
-        cls = (0, 0)
-        
-
-    def draw(self):
-        print(f"Point ({self.x} , {self.y})")
+class Human:
+    def __init__(self,name):
+        self.name = name
+    #Instance Method
+    def Show_Name(self):
+        print (self.name)
 
 
-point = Point(1, 2)
-print(point.default_color)
-point.draw()
+    def info(hey):
+        print(hey.name)
 
-
-point = Point.zero()
-another.draw()
-
-
+human = Human("Nobita")
+human.Show_Name()
+human.info()
