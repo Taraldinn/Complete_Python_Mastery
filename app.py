@@ -9,6 +9,6 @@ class Human:
     def info(hey):
         print(hey.name)
 
-human = Human("Nobita")
-human.Show_Name()
-human.info()
+# human = Human("Nobita")
+# human.Show_Name()
+# human.info()
