@@ -5,6 +5,11 @@ class Point:
         self.x = x
         self.y = y
 
+    @classmethod
+    def zero(cls):
+        cls = (0, 0)
+        
+
     def draw(self):
         print(f"Point ({self.x} , {self.y})")
 
@@ -13,5 +18,8 @@ point = Point(1, 2)
 print(point.default_color)
 point.draw()
 
-another = Point(3, 4)
+
+point = Point.zero()
 another.draw()
+
+
